@@ -195,8 +195,18 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Avaliacao.cs" />
+    <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Configurations\ConfiguracaoAvaliacao.cs" />
+    <Compile Include="Models\Configurations\ConfiguracaoCategoria.cs" />
+    <Compile Include="Models\Configurations\ConfiguracaoParticipante.cs" />
+    <Compile Include="Models\Configurations\ConfiguracaoTrabalho.cs" />
+    <Compile Include="Models\Endereco.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Participante.cs" />
+    <Compile Include="Models\Trabalho.cs" />
+    <Compile Include="Models\TrabalhoContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
